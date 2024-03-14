@@ -28,3 +28,4 @@ while True:
     elif opcao_menu == 3:
         lista_ordenada = sorted(lista_tarefa, key=lambda x: x["prioridade"])
         print(lista_ordenada)
+    
